@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Eyve</title>
+</head>
+<body>
+  <div class="all">
+    <div class="top">
+      <h1>Report received! Thank You</h1>
+      <p>Your report history:</p>
+      {{#each data}}
+        <p class="point">{{this}}"</a></p>
+      {{/each}}
+      
+      <button class="back" onclick="window.history.go(-1)">Back</button>
+    </div>
+  </div>
+
+</body>
+</html>
